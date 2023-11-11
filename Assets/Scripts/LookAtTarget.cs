@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour {
 	static public GameObject target;
-	public AudioSource audioSol; 
+	public AudioSource audioSol;
 
 	void Start () {
 		if (target == null) 

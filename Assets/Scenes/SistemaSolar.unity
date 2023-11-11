@@ -156,7 +156,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.76604444, w: 0.64278764}
   m_LocalPosition: {x: -0.6827936, y: 0.23368834, z: 0}
-  m_LocalScale: {x: 0.17142855, y: 0.17142855, z: 0.17142853}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1950553015}
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1224844}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1224847
 AudioSource:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 427486413}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!114 &427486420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.76604444, w: 0.64278764}
   m_LocalPosition: {x: -0.19734956, y: -0.2093393, z: -0.6679999}
-  m_LocalScale: {x: 0.17142855, y: 0.17142855, z: 0.17142853}
+  m_LocalScale: {x: 0.0714285, y: 0.0714285, z: 0.0714285}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1950553015}
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 427998491}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &427998494
 AudioSource:
   m_ObjectHideFlags: 0
@@ -989,7 +989,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.72, y: 0.04, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1224726000}
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 467617030}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &467617033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1236,7 +1236,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7372773, w: 0.6755903}
   m_LocalPosition: {x: 0.37813032, y: -0.34330544, z: 0.5529999}
-  m_LocalScale: {x: 0.17142856, y: 0.17142856, z: 0.17142853}
+  m_LocalScale: {x: 0.14, y: 0.14, z: 0.14}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1950553015}
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 579595476}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &579595479
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1696,7 +1696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 678479349}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!1 &768502020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +1842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 768502020}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &768502027
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2000,7 +2000,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.303, y: -0.114, z: -0.554}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1224726000}
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 785759725}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &785759728
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2443,7 +2443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 964723022}
-  listOfSounds: []
+  audioSol: {fileID: 0}
 --- !u!82 &964723028
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2694,7 +2694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1224725996}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1224726002
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2969,7 +2969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1237176371}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1237176379
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3401,7 +3401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1239709498}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!1 &1363445495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 768502020}
-  listOfSounds: []
+  audioSol: {fileID: 0}
 --- !u!1 &1488483556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,7 +3770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1488483556}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!1 &1569033099
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,7 +3822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1569033099}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1569033102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4051,7 +4051,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.762, y: 0.32, z: 0}
-  m_LocalScale: {x: 0.120000005, y: 0.120000005, z: 0.12}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 768502024}
@@ -4069,7 +4069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1719940865}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1719940868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4298,7 +4298,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.041, y: 0.263, z: 0.658}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1224726000}
@@ -4316,7 +4316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1783769963}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1783769966
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4672,7 +4672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1856465627}
-  listOfSounds: []
+  audioSol: {fileID: 0}
 --- !u!135 &1856465632
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4792,7 +4792,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7372773, w: 0.6755903}
   m_LocalPosition: {x: 0.651521, y: -0.11734641, z: 0}
-  m_LocalScale: {x: 0.17142856, y: 0.17142856, z: 0.17142853}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1950553015}
@@ -4810,7 +4810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1864642635}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1864642638
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5057,7 +5057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1917402068}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &1917402071
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5476,7 +5476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1950553011}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!114 &1950553018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5723,7 +5723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1976084300}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!114 &1976084307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5785,7 +5785,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.747, y: -0.014, z: 0}
-  m_LocalScale: {x: 0.17142856, y: 0.17142856, z: 0.17142855}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 964723026}
@@ -5803,7 +5803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2116829250}
-  listOfSounds: []
+  audioSol: {fileID: 1298809381}
 --- !u!82 &2116829253
 AudioSource:
   m_ObjectHideFlags: 0

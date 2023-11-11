@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class ChangeLookAtTarget : MonoBehaviour {
 	public GameObject target; // the target that the camera should look at
-	public AudioSource[] listOfSounds;
+    public AudioSource audioSol;
 
-	void Start() {
+    void Start() {
 		if (target == null) 
 		{
 			target = this.gameObject;
@@ -20,14 +20,17 @@ public class ChangeLookAtTarget : MonoBehaviour {
 		// divisão da escala do FOV por 2 para aproximar o objeto
 		Camera.main.fieldOfView = 60 * target.transform.localScale.x / 2;
 
-		StopSoundsFromOtherBodies();
+        OuvirApenasAudioSol();
 		target.GetComponent<AudioSource>().Play();
 	}
 
-	void StopSoundsFromOtherBodies() {
-		listOfSounds = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-		foreach (AudioSource audioS in listOfSounds) {
-			audioS.Stop();
-		}
-	}
+	void OuvirApenasAudioSol() {
+        var todosOsAudios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach (AudioSource audio in todosOsAudios) {
+            if (audio != audioSol)
+                audio.Stop();
+        }
+
+        target.GetComponent<AudioSource>().Play();
+    }
 }
