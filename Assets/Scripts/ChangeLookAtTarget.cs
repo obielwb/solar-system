@@ -17,7 +17,8 @@ public class ChangeLookAtTarget : MonoBehaviour {
 
 	void OnMouseDown () {
 		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 60 * target.transform.localScale.x;
+		// divisão da escala do FOV por 2 para aproximar o objeto
+		Camera.main.fieldOfView = 60 * target.transform.localScale.x / 2;
 
 		StopSoundsFromOtherBodies();
 		target.GetComponent<AudioSource>().Play();

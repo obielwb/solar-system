@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 15
+  velocidade: 15
 --- !u!114 &427486421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 427486417}
-  speed: -15
+  velocidade: -15
 --- !u!1 &678479349
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 678479353}
-  speed: 5
+  velocidade: 5
 --- !u!114 &678479355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1488483560}
-  speed: 10
+  velocidade: -10
 --- !u!82 &678479356
 AudioSource:
   m_ObjectHideFlags: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 5
+  velocidade: 5
 --- !u!114 &768502029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 768502024}
-  speed: 5
+  velocidade: 5
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,8 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4554f8e1f0740409268be0c1d8bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listOfSounds: []
-  sunAudioClip: {fileID: 1298809381}
+  audioSol: {fileID: 0}
 --- !u!1 &964723022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 2
+  velocidade: 2
 --- !u!114 &964723030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1326,7 +1325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 964723026}
-  speed: 4
+  velocidade: 4
 --- !u!1 &1224725996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 5
+  velocidade: 6
 --- !u!114 &1224726004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,7 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1224726000}
-  speed: 8
+  velocidade: 8
 --- !u!1 &1237176371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1237176377}
-  speed: 15
+  velocidade: 15
 --- !u!114 &1237176373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,7 +1623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 30
+  velocidade: 30
 --- !u!135 &1237176374
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2038,7 +2037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 5
+  velocidade: 5
 --- !u!82 &1298809381
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2142,7 +2141,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298809375}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!114 &1298809383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2280,7 +2279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1488483560}
-  speed: 30
+  velocidade: 30
 --- !u!114 &1488483562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,7 +2293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 10
+  velocidade: 10
 --- !u!82 &1488483563
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2637,7 +2636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 4
+  velocidade: 4
 --- !u!114 &1950553019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2651,7 +2650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1950553015}
-  speed: 5
+  velocidade: 5
 --- !u!1 &1976084300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,7 +2883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1976084304}
-  speed: 30
+  velocidade: 8
 --- !u!114 &1976084308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2898,7 +2897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1298809379}
-  speed: 8
+  velocidade: 30
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
