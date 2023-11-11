@@ -3,21 +3,20 @@ using System.Collections;
 
 public class LookAtTarget : MonoBehaviour {
 
-	static public GameObject target; // the target that the camera should look at
+	static public GameObject target;
 	public AudioSource[] listOfSounds;
 	public AudioSource sunAudioClip; 
 
 	void Start () {
 		if (target == null) 
 		{
-			target = this.gameObject;
+			target = gameObject;
 			Debug.Log ("LookAtTarget target not specified. Defaulting to parent GameObject");
 		}
 
 		KeepOnlySunSound();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if (target)
 			transform.LookAt(target.transform);
@@ -25,12 +24,10 @@ public class LookAtTarget : MonoBehaviour {
 
 	void KeepOnlySunSound() {
 		listOfSounds = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-		foreach( AudioSource audioS in listOfSounds) {
-				if (audioS != sunAudioClip)
-					audioS.Stop();
+		foreach (AudioSource audio in listOfSounds) {
+				if (audio != sunAudioClip)
+					audio.Stop();
 		}
 		target.GetComponent<AudioSource>().Play();
-
 	}
-
 }
