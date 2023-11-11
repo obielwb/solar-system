@@ -1,11 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class LookAtTarget : MonoBehaviour {
 
 	static public GameObject target;
-	public AudioSource[] listOfSounds;
-	public AudioSource sunAudioClip; 
+	public AudioSource audioSol; 
 
 	void Start () {
 		if (target == null) 
@@ -14,7 +12,7 @@ public class LookAtTarget : MonoBehaviour {
 			Debug.Log ("LookAtTarget target not specified. Defaulting to parent GameObject");
 		}
 
-		KeepOnlySunSound();
+        OuvirApenasAudioSol();
 	}
 
 	void Update () {
@@ -22,12 +20,13 @@ public class LookAtTarget : MonoBehaviour {
 			transform.LookAt(target.transform);
 	}
 
-	void KeepOnlySunSound() {
-		listOfSounds = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-		foreach (AudioSource audio in listOfSounds) {
-				if (audio != sunAudioClip)
-					audio.Stop();
+	void OuvirApenasAudioSol() {
+		var todosOsAudios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+		foreach (AudioSource audio in todosOsAudios) {
+			if (audio != audioSol)
+				audio.Stop();
 		}
+
 		target.GetComponent<AudioSource>().Play();
 	}
 }

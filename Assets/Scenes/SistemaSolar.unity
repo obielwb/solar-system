@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 678479356}
   - component: {fileID: 678479357}
   m_Layer: 0
-  m_Name: Moon
+  m_Name: Lua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 768502029}
   - component: {fileID: 768502028}
   m_Layer: 0
-  m_Name: Saturn
+  m_Name: Saturno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1097,7 +1097,7 @@ GameObject:
   - component: {fileID: 964723030}
   - component: {fileID: 964723029}
   m_Layer: 0
-  m_Name: Neptune
+  m_Name: Netuno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1591,7 +1591,7 @@ GameObject:
   - component: {fileID: 1237176378}
   - component: {fileID: 1237176379}
   m_Layer: 0
-  m_Name: Mercury
+  m_Name: Mercurio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1932,7 +1932,7 @@ GameObject:
   - component: {fileID: 1298809381}
   - component: {fileID: 1298809383}
   m_Layer: 0
-  m_Name: Sun
+  m_Name: Sol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 1488483563}
   - component: {fileID: 1488483564}
   m_Layer: 0
-  m_Name: Earth
+  m_Name: Terra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2422,7 +2422,7 @@ GameObject:
   - component: {fileID: 1950553019}
   - component: {fileID: 1950553018}
   m_Layer: 0
-  m_Name: Uranus
+  m_Name: Urano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2669,7 +2669,7 @@ GameObject:
   - component: {fileID: 1976084308}
   - component: {fileID: 1976084307}
   m_Layer: 0
-  m_Name: Mars
+  m_Name: Marte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
