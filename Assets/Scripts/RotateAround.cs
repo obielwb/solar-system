@@ -1,10 +1,11 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿// Gabriel Willian Bartmanovicz - 21234
+// João Pedro Ferreira Barbosa - 21687
+
+using UnityEngine;
 
 public class RotateAround : MonoBehaviour {
-
 	public Transform target; 
-	public int speed; 
+	public int velocidade; 
 	
 	void Start() {
 		if (target == null) 
@@ -13,7 +14,11 @@ public class RotateAround : MonoBehaviour {
 			Debug.Log ("RotateAround target not specified. Defaulting to parent GameObject");
 		}
 	}
+
 	void Update () {
-		transform.RotateAround(target.transform.position,target.transform.up,speed * Time.deltaTime);
+		transform.RotateAround(target.transform.position,
+			target.transform.up,
+            velocidade * Time.deltaTime
+		);
 	}
 }

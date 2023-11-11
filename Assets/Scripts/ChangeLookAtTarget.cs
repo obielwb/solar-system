@@ -1,8 +1,9 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿// Gabriel Willian Bartmanovicz - 21234
+// João Pedro Ferreira Barbosa - 21687
+
+using UnityEngine;
 
 public class ChangeLookAtTarget : MonoBehaviour {
-
 	public GameObject target; // the target that the camera should look at
 	public AudioSource[] listOfSounds;
 
@@ -15,17 +16,17 @@ public class ChangeLookAtTarget : MonoBehaviour {
 	}
 
 	void OnMouseDown () {
-		// change the target of the LookAtTarget script to be this gameobject.
 		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 60*target.transform.localScale.x;
+		Camera.main.fieldOfView = 60 * target.transform.localScale.x;
 
 		StopSoundsFromOtherBodies();
 		target.GetComponent<AudioSource>().Play();
 	}
+
 	void StopSoundsFromOtherBodies() {
-			listOfSounds = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-			foreach( AudioSource audioS in listOfSounds) {
-					audioS.Stop();
-			}
+		listOfSounds = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+		foreach (AudioSource audioS in listOfSounds) {
+			audioS.Stop();
+		}
 	}
 }

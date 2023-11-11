@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
+// Gabriel Willian Bartmanovicz - 21234
+// João Pedro Ferreira Barbosa - 21687
+
 using UnityEngine;
 
-public class PlanetRing : MonoBehaviour
-{
+public class PlanetRing : MonoBehaviour {
     [Range(3, 360)]
     public int segments = 3; 
     public float innerRadius = 0.7f;
@@ -16,8 +16,7 @@ public class PlanetRing : MonoBehaviour
     Mesh ringMesh; 
     MeshRenderer ringMeshRenderer; 
 
-    void Start()
-    {
+    void Start() {
         ring = new GameObject(name + " Ring");
         ring.transform.parent = transform; 
         ring.transform.localScale = Vector3.one; 

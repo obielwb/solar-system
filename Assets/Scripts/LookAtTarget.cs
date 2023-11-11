@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿// Gabriel Willian Bartmanovicz - 21234
+// João Pedro Ferreira Barbosa - 21687
+
+using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour {
-
 	static public GameObject target;
 	public AudioSource audioSol; 
 
