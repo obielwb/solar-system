@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09929656, g: 0.13326952, b: 0.11982817, a: 1}
+  m_IndirectSpecularColor: {r: 0.09919322, g: 0.13308373, b: 0.119720645, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1224844}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1224847
 AudioSource:
   m_ObjectHideFlags: 0
@@ -489,7 +489,7 @@ Transform:
   m_GameObject: {fileID: 163136266}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03199997, y: 0.027999997, z: -0.016000032}
+  m_LocalPosition: {x: -0.03199997, y: 0.027999997, z: 1.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1732266599}
-  audioSol: {fileID: 1732266602}
+  listDeSons: []
 --- !u!1 &427486413
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 427486413}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!114 &427486420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 427998491}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &427998494
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 467617030}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &467617033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 579595476}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &579595479
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1805,7 +1805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 678479349}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!1 &768502020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,14 +1930,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d14a74836dbfd4998972cefb34ee62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segments: 21
-  innerRadius: 1
-  thickness: 2
-  ringMaterial: {fileID: 2100000, guid: fe680a2bd4068484fa8b0ac33c3dfe3b, type: 2}
-  ringMeshFilter: {fileID: 0}
-  ring: {fileID: 0}
-  ringMesh: {fileID: 0}
-  ringMeshRenderer: {fileID: 0}
 --- !u!114 &768502026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,7 +1943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 768502020}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &768502027
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2127,7 +2119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 785759725}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &785759728
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2469,7 +2461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4554f8e1f0740409268be0c1d8bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSol: {fileID: 0}
+  listDeAudios: []
+  audioSol: {fileID: 1298809381}
 --- !u!1 &964723022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,7 +2586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 964723022}
-  audioSol: {fileID: 0}
+  listDeSons: []
 --- !u!82 &964723028
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2844,7 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1224725996}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1224726002
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3119,7 +3112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1237176371}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1237176379
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3536,7 +3529,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298809375}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &1363445495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3657,7 +3650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 768502020}
-  audioSol: {fileID: 0}
+  listDeSons: []
 --- !u!1 &1488483556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,7 +3898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1488483556}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!1 &1569033099
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,7 +3950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1569033099}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1569033102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4204,7 +4197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1719940865}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1719940868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4435,7 +4428,7 @@ Transform:
   m_GameObject: {fileID: 1732266599}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -202.4, y: -1.7, z: 100}
+  m_LocalPosition: {x: -204.3, y: -29.4, z: 30.2}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4455,7 +4448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2110044217}
-  audioSol: {fileID: 1732266602}
+  listDeSons: []
 --- !u!82 &1732266602
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4559,7 +4552,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732266599}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &1732266604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4657,6 +4650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4554f8e1f0740409268be0c1d8bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listDeAudios: []
   audioSol: {fileID: 1732266602}
 --- !u!114 &1732266609
 MonoBehaviour:
@@ -4686,6 +4680,141 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1732266600}
   velocidade: 5
+--- !u!1 &1770912306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770912307}
+  - component: {fileID: 1770912312}
+  - component: {fileID: 1770912311}
+  - component: {fileID: 1770912310}
+  - component: {fileID: 1770912309}
+  - component: {fileID: 1770912308}
+  m_Layer: 0
+  m_Name: Kepler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1770912307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -207.3, y: -2.19, z: 97.37}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2110044218}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1770912308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3a828e946004a95b28dd531cc35ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1770912307}
+  velocidade: -6
+--- !u!114 &1770912309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3a828e946004a95b28dd531cc35ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2110044218}
+  velocidade: 5
+--- !u!135 &1770912310
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1770912311
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c0348f4c63575c243aad8ca1709a5890, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1770912312
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770912306}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1783769963
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1783769963}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1783769966
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5093,7 +5222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1856465627}
-  audioSol: {fileID: 0}
+  listDeSons: []
 --- !u!135 &1856465632
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5231,7 +5360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1864642635}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1864642638
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5478,7 +5607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1917402068}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &1917402071
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5897,7 +6026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1950553011}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!114 &1950553018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6144,7 +6273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1976084300}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!114 &1976084307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6200,11 +6329,12 @@ Transform:
   m_GameObject: {fileID: 2110044217}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 213.5, y: 2.838451, z: -2.3834794}
+  m_LocalPosition: {x: 176.1, y: 21.7, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1732266600}
+  - {fileID: 1770912307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2110044219
@@ -6219,6 +6349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d4554f8e1f0740409268be0c1d8bbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listDeAudios: []
   audioSol: {fileID: 1732266602}
 --- !u!114 &2110044220
 MonoBehaviour:
@@ -6285,7 +6416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2116829250}
-  audioSol: {fileID: 1298809381}
+  listDeSons: []
 --- !u!82 &2116829253
 AudioSource:
   m_ObjectHideFlags: 0

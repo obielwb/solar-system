@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour {
 	static public GameObject target;
+	public AudioSource[] listDeAudios;
 	public AudioSource audioSol;
-
 	void Start () {
 		if (target == null) 
 		{
@@ -14,7 +14,9 @@ public class LookAtTarget : MonoBehaviour {
 			Debug.Log ("LookAtTarget target not specified. Defaulting to parent GameObject");
 		}
 
-        OuvirApenasAudioSol();
+    OuvirApenasAudioSol();
+		audioSol = GetComponent<AudioSource>();
+    audioSol.Play(0);
 	}
 
 	void Update () {
@@ -23,12 +25,11 @@ public class LookAtTarget : MonoBehaviour {
 	}
 
 	void OuvirApenasAudioSol() {
-		var todosOsAudios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-		foreach (AudioSource audio in todosOsAudios) {
-			if (audio != audioSol)
-				audio.Stop();
+		listDeAudios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+		foreach( AudioSource audioS in listDeAudios) {
+				if (audioS != audioSol)
+					audioS.Stop();
 		}
 
-		target.GetComponent<AudioSource>().Play();
 	}
 }
